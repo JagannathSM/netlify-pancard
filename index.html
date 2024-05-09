@@ -50,7 +50,7 @@
     <tbody>
       <tr>
         <td></td>
-        <td> <span class="main">*</span><b> Whether he is a Citizen Of India</b>
+        <td colspan="2"> <span class="main">*</span><b> Whether he is a Citizen Of India</b>
           <label for="yes" style="padding-left: 80px;">Yes</label>
           <input type="radio" name="" id="yes">
 
@@ -62,20 +62,20 @@
         <td>
 
         </td>
-        <td>
+        <td colspan="2">
           <span class="main">*</span> <b> Permanent Account Number(PAN)</b><input type="text" name="" id="">
         </td>
       </tr>
       <tr>
         <td style="width:20px;"><input type="checkbox" name="" id=""></td>
-        <td>
+        <td colspan="2">
           <span class="main">*</span> <b>1.Name</b>
         </td>
       </tr>
 
       <tr>
         <td></td>
-        <td>
+        <td colspan="2">
           <b> Title</b>
           <label for="shri" style="padding-left: 20px;">Shri/mr</label>
           <input type="radio" name="" id="shri">
@@ -93,7 +93,7 @@
         <td>
 
         </td>
-        <td>
+        <td colspan="2">
           <b>
             <div style="display: inline-block;">
               <label for="Lastname/Surname">Lastname/Surname</label><br>
@@ -115,7 +115,7 @@
         <td>
 
         </td>
-        <td>
+        <td colspan="2">
             <span class="main">*</span> <b>Name as you would like it printed on the card</b>
             <span style="color: blue;"><b>(Prefix like Shri, smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed)</b></span>
         </td>
@@ -124,7 +124,7 @@
         <td>
 
         </td>
-        <td>
+        <td colspan="2">
             <input type="text" name="" id="" style="width: 300px;">
         </td>
       </tr>
@@ -132,7 +132,7 @@
         <td>
 
         </td>
-        <td>
+        <td colspan="2">
             <b>Details of Parents.</b>
             <span style="color: blue;"><b>(Prefix like Shri, smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed)</b></span>
         </td>
@@ -141,22 +141,16 @@
         <td>
 
         </td>
+        <td style="width: 670px;">
+            <b>Whether mother is single parent and you wish to apply for PAN by furnishing the name of your monther only</b>
+        </td>
         <td>
-            <table width="100%" style="border: 1px white;">
-                <tbody>
-                    <td style="max-width: 120px;">
-                        <b>Whether mother is single parent and you wish to apply for PAN by furnishing the name of your monther only</b>
-                    </td>
-                    <td>
-                        <label for="yes" style="padding-right: 10px;">Yes</label><input type="radio" name="y" id="yes"><label for="no" style="padding: 0px 10px 0px 5px">No</label><input type="radio" name="y" id="no">
-                    </td>
-                </tbody>
-            </table>
+            <label for="yes" style="padding-right: 10px;">Yes</label><input type="radio" name="y" id="yes"><label for="no" style="padding: 0px 10px 0px 5px">No</label><input type="radio" name="y" id="no">
         </td>
       </tr>
       <tr>
         <td style="width:20px;"><input type="checkbox" name="" id=""></td>
-        <td>
+        <td colspan="2">
             <span class="main">*</span> <b>Father's Name</b><span style="color: blue;"><b>(Mandatory field. Even married women should give father's name only.)</b></span>
         </td>
       </tr>
@@ -164,7 +158,7 @@
         <td>
 
         </td>
-        <td>
+        <td colspan="2">
           <b>
             <div style="display: inline-block;">
               <label for="Lastname/Surname">Lastname/Surname</label><br>
@@ -184,7 +178,7 @@
       </tr>
       <tr>
         <td style="width:20px;"><input type="checkbox" name="" id=""></td>
-        <td>
+        <td colspan="2">
             <span style="color: blue;"><b>Mother's Name(This field is optional)</b></span>
         </td>
       </tr>
@@ -192,7 +186,7 @@
         <td>
 
         </td>
-        <td>
+        <td colspan="2">
           <b>
             <div style="display: inline-block;">
               <label for="Lastname/Surname">Lastname/Surname</label><br>
@@ -208,6 +202,42 @@
               <input type="text" name="" id="Middlename">
             </div>
           </b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+
+        </td>
+        <td>
+            <span class="main">*</span><span><b>4. Select Parent name which is to be printed on the card.</b></span><br>
+            <p style="color: blue;">(In case on information is provied the PAN card will be issued with the father's name)</p>
+        </td>
+        <td>
+            <label for="father" style="padding-right: 10px;">Father Name</label>
+            <input type="radio" name="a" id="father">
+            <label for="mother" style="padding: 0px 10px 0px 5px">Mother Name</label>
+            <input type="radio" name="a" id="mother">
+        </td>
+      </tr>
+      <tr>
+        <td style="width:20px;"><input type="checkbox" name="" id=""></td>
+        <td>
+            <span class="main">*</span><span><b>5. Date of Birth/Incorporation/Agreement/partnership or Trusr Deed/Formation of Boady of Individuals/Assosiation of Persons</b></span>
+        </td>
+        <td>
+            <div style="display: inline-block;">
+                <label for="Date">DD</label><br>
+                <input type="date" name="" id="Date">
+              </div>
+              <div style="display: inline-block;">
+                <label for="Month">MM</label><br>
+                <input type="search" name="" id="Month">
+              </div>
+  
+              <div style="display: inline-block;">
+                <label for="Year">YYYY</label><br>
+                <input type="text" name="" id="Year">
+              </div>
         </td>
       </tr>
     </tbody>
